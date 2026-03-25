@@ -2208,8 +2208,8 @@ const Index = () => {
     }
   };
 
-  const outerBg = theme === "light" ? "#dde4f0" : "#030a14";
-
+  // const outerBg = theme === "light" ? "#dde4f0" : "#030a14";
+  const outerBg = theme === "light" ? "#ffff" : "#030a14";
   return (
     <div style={{ minHeight: "100vh", background: outerBg, display: "flex", alignItems: "center", justifyContent: "center", padding: "20px 10px", fontFamily: "'Libre Baskerville', Georgia, 'Times New Roman', serif", transition: "background 0.4s" }}>
       {/* iPhone 16 Frame */}
